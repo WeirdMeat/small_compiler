@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"small_compiler/internal/lexer"
+	"small_compiler/lexer"
 )
 
 var text = `
