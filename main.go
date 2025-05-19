@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/WeirdMeat/internal/lexer"
+	"small_compiler/internal/lexer"
 )
 
 var text = `
