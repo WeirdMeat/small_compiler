@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/weirdmeat/small_compiler/lexer"
+	"github.com/WeirdMeat/internal/lexer"
 )
 
 var text = `
@@ -15,6 +15,5 @@ endif`
 
 func main() {
 	r := bufio.NewReader(strings.NewReader(text))
-	fmt.Println("Hi, Daddy")
 	fmt.Println(lexer.Lexer(r))
 }
